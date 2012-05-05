@@ -1,0 +1,139 @@
+table.yui 
+{  
+    border-collapse:collapse;	
+    border: solid 1px #7f7f7f;
+    width: 98%;
+}
+
+table.yui td {	
+	padding: 5px;
+	border-right: solid 1px #7f7f7f;
+}
+table.yui .even {
+	background-color: #fff;
+}
+table.yui .odd {
+	background-color: #edf5ff;
+}
+table.yui th
+{
+    background: url('http://www.snappvis.org/SNAPP2/images/sprite.png') repeat-x 0px 0px;    		
+	border: 1px solid #7f7f7f;
+    padding: 5px;
+	height: auto;
+	cursor: pointer;
+}
+
+table.yui th a
+{
+	text-decoration: none;
+	text-align: center;    	
+    padding-right: 20px;
+    white-space:nowrap;
+    background: url('http://www.snappvis.org/SNAPP2/images/bg.gif') no-repeat right 50%;
+}
+
+table.yui thead .headerSortUp , table.yui thead .headerSortDown 
+{
+    background: url('http://www.snappvis.org/SNAPP2/images/sprite.png') repeat-x 0px -100px;
+}
+
+table.yui .headerSortUp a 
+{	
+    background: url('http://www.snappvis.org/SNAPP2/images/asc.gif') no-repeat right 50%;
+}
+table.yui .headerSortDown a 
+{    
+    background: url('http://www.snappvis.org/SNAPP2/images/desc.gif') no-repeat right 50%;
+}
+
+table.yui tfoot td
+{    
+    border-top: 1px solid #7f7f7f;
+    background-color:#E1ECF9;
+}
+
+table.yui thead td
+{
+    vertical-align:middle;
+    background-color:#E1ECF9;
+    border:none;
+}
+
+table.yui thead .tableHeader
+{
+    <!-- font-weight:bold; -->
+}
+
+table.yui thead .filter
+{
+    text-align:right;
+}
+
+table.yui tfoot
+{
+    background-color:#E1ECF9;
+    text-align:center;      
+}
+
+table.yui .tablesorterPager {
+	padding: 10px 0 10px 0;		
+}
+table.yui .tablesorterPager span {
+	padding: 0 5px 0 5px;
+}
+table.yui .tablesorterPager input.prev {
+	width: auto;
+	margin-right: 10px;
+}
+table.yui .tablesorterPager input.next {
+	width: auto;
+	margin-left: 10px;
+}
+table.yui .pagedisplay 	
+{
+    font-size:10pt;
+	width: 30px;
+	border: 0px;	
+	background-color: #E1ECF9;
+	text-align:center;
+    vertical-align:top;
+}
+
+/* Custom SNAPP styles */
+div.formArea 
+{
+   width: 95%;
+   padding: 5px;
+   margin: 0px 10px 10px 10px;
+}
+
+#SNAPPContainer{
+  background: white;
+}
+
+.formTitle {
+    color:#6699CC;
+    font-size:18px;
+    font-weight:bold;
+    vertical-align:bottom;
+}
+
+.previewbox
+{
+	background-image: url(http://www.snappvis.org/SNAPP2/images/bluegrad_background.jpg);
+	background-repeat:repeat-x;
+	border: solid 1px #97a5b0; /* #cccccc */
+	padding: 1px 1px 1px 1px;
+	line-height: 0.5em;
+	float:right;
+	clear:right;
+}
+
+.jqplot-axis {
+      font-size: 0.25em;
+}
+
+.highlight { background-color: yellow }
+
+
