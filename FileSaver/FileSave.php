@@ -18,12 +18,12 @@
     }
     else if ($_POST['fileext']=="gefx")
     {
-      $fileext = ".gefx";
+      $fileext = ".gexf";
       $data = str_replace("\\", "", $_POST['imagedata']);
     }
     else if ($_POST['fileext']=="gefxd")
     {
-      $fileext = ".gefx";
+      $fileext = ".gexf";
       $data = str_replace("\\", "", $_POST['imagedata']);
     }
     else if ($_POST['fileext']=="annotations")
